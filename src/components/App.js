@@ -17,7 +17,7 @@ const App = () => {
         id="nameInput"
         onChange={(e) => updateGreeting(e.target.value)}
       />
-      <h1>Hello {name}!</h1>  
+      <p>Hello {name}!</p>  
     </div>
   )
 }
