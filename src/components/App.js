@@ -3,16 +3,15 @@ import React from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [name, setName] = useState('');
+  const [name,setName] = useState('');
   
   const updateGreeting = (inputName) => {
     setName(inputName);
   };
+  
   return (
     <div>
-      <h1>Enter your name:</h1>
-       
-      <label >Enter your name:</label>
+      <label htmlFor="nameInput">Enter your name:</label>
       <input
         type="text"
         id="nameInput"
