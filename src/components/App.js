@@ -1,5 +1,5 @@
 
-import React from "react";
+import React,{useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
   const updateGreeting = (inputName) => {
     setName(inputName);
   };
-  
+
   return (
     <div>
       <label htmlFor="nameInput">Enter your name:</label>
